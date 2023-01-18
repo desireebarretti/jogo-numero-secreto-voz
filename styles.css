@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;300&family=Nunito:wght@200&family=Pacifico&display=swap');
+:root {
+    --font-destaque: 'Pacifico', sans-serif;
+    --font-texto: 'Noto Sans Display', sans-serif;
+    --bg-color: hsl(184, 22%, 87%);
+    --font-color-destaque: #EB6440;
+    --font-color-texto: #497174;
+}
+
+body {
+    font-family: var(--font-texto);
+    color: var(--font-color-texto);
+    background-color: var(--bg-color);
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: var(--font-destaque);
+    color: var(--font-color-destaque);
+    font-size: 4em;
+}
+
+h3{
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--font-color-texto);
+    display: inline-block;
+    font-size: 3em;
+    padding: 10px;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.btn-jogar {
+    background-color: var(--font-color-destaque);
+    color: white;
+    padding: 1em;
+    margin-top: 2em;
+    border: 3px solid var(--font-color-texto);
+    border-radius: 30px;
+    font-size: 1em;
+}
+
+.btn-jogar:hover{
+    color: white;
+    background-color: var(--font-color-texto);
+    cursor: pointer;
+}
